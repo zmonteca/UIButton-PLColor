@@ -9,5 +9,13 @@ Set the background color of any button by specifying a UIColor instead of a UIIm
 
 1. Import header into your Prefix.pch
 1. Usage
-
+```
     [button setBackgroundColor:uiTextColor forState:UIControlStateDisabled];
+```
+1. Optional forStates to use:
+```
+UIControlStateNormal
+UIControlStateHighlighted
+UIControlStateDisabled
+UIControlStateSelected
+```
